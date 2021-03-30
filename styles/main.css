@@ -1,0 +1,78 @@
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+/*// Your assignment code starts here*/
+
+.menu p {
+    font-family: montserrat;
+    font-weight: ;
+    font-size: 18px;
+    align-content: ;
+    text-align: center;
+    float: right;
+    padding: 20px 100px;
+    margin-top: -250px;
+    margin-left: 650px
+    
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    /*     Your assignment's code for large screens starts here*/
+
+    .discover-menu h2 {
+        color: orange;
+        float: right;
+        padding: 20px 270px;
+        margin-top: -350px;
+    }
+
+
+    .discover-menu h3 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        float: right;
+        padding: 20px 275px;
+        margin-top: -325px;
+    }
+
+    .fullmenu {
+        color: orange;
+        padding: 20px 265px;
+        margin-top: -170px;
+        float: right;
+        align-content: center;
+    }
+    
+    .start-divider{
+         float: right;
+        padding: 20px 195px;
+        margin-top: -280px;
+        
+        
+    }
+
+    #thumbnails {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 250px);
+        max-width:;
+        margin: 0 auto;
+        padding: 30px
+    }
+
+
+}
